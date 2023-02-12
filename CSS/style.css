@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url('../Images/hamburg-3021820.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.section {
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 100vh;
+    /* opacity: 0.3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.body_content {
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 90%;
+    display: flex;
+    border-radius: 1%;
+    /* opacity: 0.1; */
+}
+
+.item1 {
+    width: 50%;
+    padding: 2rem;
+}
+
+.area1 {
+    display: flex;
+    align-items: center;
+}
+
+.content>h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+.content>p{
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    text-align: justify;
+}
+.button{
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 5px;
+}
+.link1{
+    background-color: rgb(0, 173, 0);
+    margin-right: 1rem;
+}
+.link2{
+    background-color: orange;
+}
+.link1:hover{
+    background-color: white;
+    color: rgb(0, 173, 0);
+}
+.link2:hover{
+    background-color: rgb(255, 255, 255) ;
+    color: orange;
+}
+.area2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image_box {
+    /* margin: 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer_bottom{
+    width: 100%;
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.664);
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.contact{
+    font-size: 21px;
+    font-weight: 500;
+    margin-right: 1rem;
+    border-bottom: 2px solid rgb(0, 173, 0);;
+}
+span{
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 1rem;
+}
+span>i{
+    color: orange;
+}
